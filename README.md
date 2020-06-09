@@ -17,7 +17,7 @@ java -jar com.fredoliveira.greetingsgrpcjava.server.GrpcServer.jar
 go run client/client.go 
 ```
 
-- Go client (You have to run java server)
+- Java client (You have to run Go server)
 -- Required Java 14
 ``` bash
 java -jar com.fredoliveira.greetingsgrpcjava.server.GrpcClient.jar
